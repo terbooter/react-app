@@ -1,13 +1,14 @@
 import './NotesApp.css';
 import {NoteEditor} from "./NoteEditor";
 import {NotesGrid} from "./NotesGrid";
+import {NoteData} from "./NoteData";
 
 class Properties {
 
 }
 
 class State {
-    notes: any[];
+    notes: NoteData[];
 }
 
 export class NotesApp extends React.Component<Properties, State> {

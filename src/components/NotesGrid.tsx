@@ -3,6 +3,7 @@ import * as React from "react";
 import {Note} from "./Note";
 
 import './NotesGrid.css';
+import {NoteData} from "./NoteData";
 
 // import MasonryGrid = Masonry.MasonryGrid;
 // import MasonryOptions = Masonry.MasonryOptions;
@@ -12,7 +13,7 @@ declare class Masonry implements Masonry.MasonryGrid {
 }
 
 class Properties {
-    notes: any[];
+    notes: NoteData[];
     onNoteDelete: Function;
 }
 
